@@ -10,7 +10,6 @@ import { CardComponent } from "../shared/card/card.component";
     styleUrl: './user.component.css',
     imports: [CardComponent]
 })
-//dsdsdsdsdsds
 export class UserComponent {
   @Input({ required: true }) user!: User;
   @Input({required: true}) selected!: boolean;
